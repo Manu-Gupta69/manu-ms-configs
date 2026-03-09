@@ -8,7 +8,7 @@ spring:
     client:
       fetchRegistry: true
       registerWithEureka: true
-      serviceUrl:
+      service-url:
         defaultZone: http://localhost:8070/eureka/
 
 accounts:
